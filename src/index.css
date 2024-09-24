@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .sec_pad {
+        @apply py-16
+    }
+    .heading {
+        @apply text-[42px] font-bold pb-4 font-jsans
+    }
+    .b_title {
+        @apply text-[18px] font-bold pb-[12px]
+    }
+    .clr {
+        @apply h-[5px] w-[20px] rounded-lg
+    }
+}
+
+.pdetails .react-tabs__tab-list{
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+.pdetails .react-tabs__tab--selected {
+    border: none !important;
+    text-decoration: underline;
+    background: transparent !important;
+}
+
+.lateproducts .react-tabs__tab-list{
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+.disproduct .react-tabs__tab-list{
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+.lateproducts .react-tabs__tab--selected {
+    border: none !important;
+    text-decoration: underline;
+    color: #FB2E86 !important;
+}
+.disproduct .react-tabs__tab--selected {
+    border: none !important;
+    text-decoration: underline;
+    color: #FB2E86 !important;
+    outline: none !important;
+}
+
+.Toastify__toast-theme--light {
+    width: 330px;
+}
+.slick-dots .slick-active .abc {
+    background-color: #FB2E86 !important;
+}
